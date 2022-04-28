@@ -42,7 +42,7 @@ module.exports = (sequelize, dataTypes) => {
         },
     };
     const config = {
-        tableName : "configuraciones",
+        tableName : "calificaciones",
         timestamps : true, //createdAt/updatedAt
         paranoid: true //soft delete
     }   
